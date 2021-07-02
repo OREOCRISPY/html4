@@ -1,0 +1,75 @@
+﻿.container1 {
+height:400px;
+width:100%;
+background-color:#272e31;
+}
+.container2 {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+body {
+    display:block;
+    width:100%;
+}
+.t1 {
+    padding-top:20px;
+    height:100%;
+    width:100%;
+}
+
+.t1 td {
+    color:lightgray;
+    display:inline-block;
+    height:100%;
+
+}
+.text1 {
+    line-height: 25px;
+    display: block;
+    text-align: center;
+}
+
+.d1 {
+    width:29%;
+}
+.d2 {
+    width:39%;
+}
+.d3 {
+    width:29%;
+}
+    .d3 div {
+        text-align:center;
+        padding-top:50px;
+    }
+
+td[class=d2] > div {
+    display:inline-block;
+}
+
+td[class=d2] li {
+    padding-top:15px;
+    list-style: none;
+    font-size: 18px;
+    
+}
+td[class=d2] li a{
+    text-decoration:none;
+    color:white;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-block-color:#3d4346;
+}
+.container2 {
+    padding-top:25px;
+}
+
+.container2 div {
+    color:white;
+    display:inline-block;
+    width:49%;
+}
+.facebook {
+    text-align:right;
+}
